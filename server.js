@@ -72,11 +72,11 @@ app.get('/', (req, res) => {
  *  ROUTES
 \* =================================================================== */
 // Import example router module
-let exampleRouter = require(path.join(__dirname, 'bundles', 'example', 'exampleRouter.js'))
+const marvelRouter = require(path.join(__dirname, 'bundles', 'marvel', 'marvelRouter.js'))
 
-// Use example router
-// All routes in example router will start by '/example'
-app.use('/example', exampleRouter)
+// Use marvel router
+// All routes in marvel router will start by '/marvel'
+app.use('/marvel', marvelRouter)
 /* =================================================================== *\
  *  END OF ROUTES
 \* =================================================================== */
@@ -88,7 +88,7 @@ app.use('/example', exampleRouter)
 \* =================================================================== */
 
 let srv = app.listen(port, () => {
-  logger.info('Server run on port', port, 'in', process.env.NODE_ENV, 'mode')
+  logger.info(`Server run on port ${port} in ${process.env.NODE_ENV} mode`)
 })
 
 // Export server. He will be used by tests unit.

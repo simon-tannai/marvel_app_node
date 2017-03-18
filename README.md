@@ -11,6 +11,7 @@ Use ECMAScript 2015 (ES6) standards.
 - Logs to trace HTTP requests and Node.js messages.
 - Units tests with Mocha and others modules.
 - Gulp, awesome to build your production package.
+- Yarn, instead of NPM, to manage dependencies.
 
 ## Development install
 Install dependencies with `npm i` command.

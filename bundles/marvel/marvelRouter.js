@@ -1,5 +1,5 @@
 /**
- * Example router
+ * Marvel router
  * @author Simon Tannai <tannai.simon@gmail.com>
  * @license MIT
  * @todo: Nothing
@@ -11,7 +11,9 @@ const path = require('path')
 const express = require('express')
 const router = express.Router()
 
-const exampleController = require(path.join(__dirname, 'exampleController.js'))
+const MarvelCtrl = require(path.join(__dirname, 'marvelCtrl.js'))
+const marvelCtrl = new MarvelCtrl()
+
 const logger = require(path.join(__dirname, '..', '..', 'core', 'Logger.js'))
 
 /**
