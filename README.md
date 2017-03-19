@@ -19,7 +19,7 @@ Use ECMAScript 2015 (ES6) standards.
 - Yarn: `npm i -g yarn`
 
 ## Development install
-Install dependencies with `npm i` command.
+Install dependencies with `yarn install` command.
 
 Run the server with `npm run dev` command.
 
