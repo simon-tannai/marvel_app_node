@@ -21,6 +21,8 @@ Use ECMAScript 2015 (ES6) standards.
 ## Development install
 Install dependencies with `yarn install` command.
 
+Rename the file `config/marvelApi.sample.json` to `config/marvelApi.json` and add into the file your Marvel API informations.
+
 Run the server with `npm run dev` command.
 
 ### Note
