@@ -7,7 +7,7 @@ NODE_ENV=production
 mkdir logs
 
 # Install dependancies
-npm i
+yarn install
 
 # Run the server
 npm run prod

@@ -1,0 +1,1 @@
+"use strict";module.exports=class t{constructor(){this._path=require("path"),this._logger=require(this.path.join(__dirname,"/Logger.js"))}get path(){return this._path}get logger(){return this._logger}};
